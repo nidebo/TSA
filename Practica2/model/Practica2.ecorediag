@@ -3,6 +3,10 @@
   <children xmi:type="notation:Node" xmi:id="_iCRwoCq6EeOgQuYgxil5Ow" type="1001">
     <children xmi:type="notation:Node" xmi:id="_iCTl0Cq6EeOgQuYgxil5Ow" type="4001"/>
     <children xmi:type="notation:Node" xmi:id="_iCVbACq6EeOgQuYgxil5Ow" type="5001">
+      <children xmi:type="notation:Node" xmi:id="_M4G-4Cs8EeOwc52wbyV1mA" type="2001">
+        <element xmi:type="ecore:EAttribute" href="Practica2.ecore#//EClass0/atributo1"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_M4G-4Ss8EeOwc52wbyV1mA"/>
+      </children>
       <styles xmi:type="notation:DrawerStyle" xmi:id="_iCVbASq6EeOgQuYgxil5Ow"/>
       <styles xmi:type="notation:SortingStyle" xmi:id="_iCVbAiq6EeOgQuYgxil5Ow"/>
       <styles xmi:type="notation:FilteringStyle" xmi:id="_iCWCECq6EeOgQuYgxil5Ow"/>
