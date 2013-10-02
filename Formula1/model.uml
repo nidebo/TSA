@@ -1,0 +1,244 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="20110701" xmlns:xmi="http://www.omg.org/spec/XMI/20110701" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:uml="http://www.eclipse.org/uml2/4.0.0/UML" xmi:id="_RXdEACq4EeOUq8QNWp2yhg" name="Model">
+  <packageImport xmi:type="uml:PackageImport" xmi:id="_RXdEASq4EeOUq8QNWp2yhg">
+    <importedPackage xmi:type="uml:Model" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#_0"/>
+  </packageImport>
+  <packagedElement xmi:type="uml:Class" xmi:id="_Tbh0kCq4EeOUq8QNWp2yhg" name="Escuderia">
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_n9kVQCq4EeOUq8QNWp2yhg" name="Nombre" visibility="public">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_oLjt8Cq4EeOUq8QNWp2yhg" value="1"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_oLs34Cq4EeOUq8QNWp2yhg" value="1"/>
+      <defaultValue xmi:type="uml:LiteralString" xmi:id="_oLs34Sq4EeOUq8QNWp2yhg">
+        <value xsi:nil="true"/>
+      </defaultValue>
+    </ownedAttribute>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_rZdNUCq4EeOUq8QNWp2yhg" name="Presupuesto" visibility="public">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Real"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_rkBekCq4EeOUq8QNWp2yhg" value="1"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_rkBekSq4EeOUq8QNWp2yhg" value="1"/>
+      <defaultValue xmi:type="uml:LiteralString" xmi:id="_rkBekiq4EeOUq8QNWp2yhg">
+        <value xsi:nil="true"/>
+      </defaultValue>
+    </ownedAttribute>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_sIx8ACq5EeOUq8QNWp2yhg" name="patrocinador" type="_jSOngCq4EeOUq8QNWp2yhg" association="_sIx8Ayq5EeOUq8QNWp2yhg">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_sIx8ASq5EeOUq8QNWp2yhg" value="1"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_sIx8Aiq5EeOUq8QNWp2yhg" value="1"/>
+    </ownedAttribute>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_VfMVcCq4EeOUq8QNWp2yhg" name="GranPremio">
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_xCOzsCq4EeOUq8QNWp2yhg" name="Distancia" visibility="public">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Real"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_xP6qYCq4EeOUq8QNWp2yhg" value="1"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_xP6qYSq4EeOUq8QNWp2yhg" value="1"/>
+      <defaultValue xmi:type="uml:LiteralString" xmi:id="_xP6qYiq4EeOUq8QNWp2yhg">
+        <value xsi:nil="true"/>
+      </defaultValue>
+    </ownedAttribute>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_1iTsoCq4EeOUq8QNWp2yhg" name="Nombre" visibility="public">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_1yzmwCq4EeOUq8QNWp2yhg" value="1"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_1yzmwSq4EeOUq8QNWp2yhg" value="1"/>
+      <defaultValue xmi:type="uml:LiteralString" xmi:id="_1yzmwiq4EeOUq8QNWp2yhg">
+        <value xsi:nil="true"/>
+      </defaultValue>
+    </ownedAttribute>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="__pqXICq4EeOUq8QNWp2yhg" name="Vueltas" visibility="public">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="__z3cACq4EeOUq8QNWp2yhg" value="1"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="__z4DECq4EeOUq8QNWp2yhg" value="1"/>
+      <defaultValue xmi:type="uml:LiteralString" xmi:id="__z5RMCq4EeOUq8QNWp2yhg">
+        <value xsi:nil="true"/>
+      </defaultValue>
+    </ownedAttribute>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_wfSpQCq5EeOUq8QNWp2yhg" name="ubicacion" type="_XpGoQCq4EeOUq8QNWp2yhg" association="_wfSpQyq5EeOUq8QNWp2yhg">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_wfSpQSq5EeOUq8QNWp2yhg" value="1"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_wfSpQiq5EeOUq8QNWp2yhg" value="1"/>
+    </ownedAttribute>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_XpGoQCq4EeOUq8QNWp2yhg" name="Ubicacion">
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_QXrMkCq5EeOUq8QNWp2yhg" name="Pais" visibility="public">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_QlLdECq5EeOUq8QNWp2yhg" value="1"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_QlLdESq5EeOUq8QNWp2yhg" value="1"/>
+      <defaultValue xmi:type="uml:LiteralString" xmi:id="_QlT_8Cq5EeOUq8QNWp2yhg">
+        <value xsi:nil="true"/>
+      </defaultValue>
+    </ownedAttribute>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_UC0BkCq5EeOUq8QNWp2yhg" name="Ciudad" visibility="public">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_UPcvYCq5EeOUq8QNWp2yhg" value="1"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_UPcvYSq5EeOUq8QNWp2yhg" value="1"/>
+      <defaultValue xmi:type="uml:LiteralString" xmi:id="_UPcvYiq5EeOUq8QNWp2yhg">
+        <value xsi:nil="true"/>
+      </defaultValue>
+    </ownedAttribute>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_YRIRkCq4EeOUq8QNWp2yhg" clientDependency="_vrEXACq5EeOUq8QNWp2yhg" name="Piloto">
+    <generalization xmi:type="uml:Generalization" xmi:id="_ODTgwCq6EeOUq8QNWp2yhg" general="_DCSqYCq6EeOUq8QNWp2yhg"/>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_KBhi0Cq5EeOUq8QNWp2yhg" name="Nombre" visibility="public">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_KOUBoCq5EeOUq8QNWp2yhg" value="1"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_KOUBoSq5EeOUq8QNWp2yhg" value="1"/>
+      <defaultValue xmi:type="uml:LiteralString" xmi:id="_KOUBoiq5EeOUq8QNWp2yhg">
+        <value xsi:nil="true"/>
+      </defaultValue>
+    </ownedAttribute>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_kKXT8Cq5EeOUq8QNWp2yhg" name="Experiencia" visibility="public">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_kWJtMCq5EeOUq8QNWp2yhg" value="1"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_kWJtMSq5EeOUq8QNWp2yhg" value="1"/>
+      <defaultValue xmi:type="uml:LiteralString" xmi:id="_kWJtMiq5EeOUq8QNWp2yhg">
+        <value xsi:nil="true"/>
+      </defaultValue>
+    </ownedAttribute>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_w28UQCq5EeOUq8QNWp2yhg" name="escuderia" type="_Tbh0kCq4EeOUq8QNWp2yhg" association="_w28UQyq5EeOUq8QNWp2yhg">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_w28UQSq5EeOUq8QNWp2yhg" value="1"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_w28UQiq5EeOUq8QNWp2yhg" value="1"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_1ssiQCq5EeOUq8QNWp2yhg" name="ubicacion" type="_XpGoQCq4EeOUq8QNWp2yhg" association="_1ssiQyq5EeOUq8QNWp2yhg">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_1ssiQSq5EeOUq8QNWp2yhg" value="1"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_1ssiQiq5EeOUq8QNWp2yhg" value="1"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_I2VwkCtSEeON98jwdcv1XQ" name="Titulos" visibility="public">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_JQG7cCtSEeON98jwdcv1XQ" value="1"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_JQHigCtSEeON98jwdcv1XQ" value="1"/>
+      <defaultValue xmi:type="uml:LiteralString" xmi:id="_JQIwoCtSEeON98jwdcv1XQ">
+        <value xsi:nil="true"/>
+      </defaultValue>
+    </ownedAttribute>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_c7kAYCq4EeOUq8QNWp2yhg" name="Resultado">
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_ffrGcCq5EeOUq8QNWp2yhg" name="Property1"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_jSOngCq4EeOUq8QNWp2yhg" name="Patrocinador">
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_CSKqcCq5EeOUq8QNWp2yhg" name="Nombre" visibility="public">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_CZL4cCq5EeOUq8QNWp2yhg" value="1"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_CZMfgCq5EeOUq8QNWp2yhg" value="1"/>
+      <defaultValue xmi:type="uml:LiteralString" xmi:id="_CZNtoCq5EeOUq8QNWp2yhg">
+        <value xsi:nil="true"/>
+      </defaultValue>
+    </ownedAttribute>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_HV3N0Cq5EeOUq8QNWp2yhg" name="" visibility="public">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_HlT_ECq5EeOUq8QNWp2yhg" value="1"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_HlT_ESq5EeOUq8QNWp2yhg" value="1"/>
+      <defaultValue xmi:type="uml:LiteralString" xmi:id="_HlT_Eiq5EeOUq8QNWp2yhg">
+        <value xsi:nil="true"/>
+      </defaultValue>
+    </ownedAttribute>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_tbgIICq5EeOUq8QNWp2yhg" name="piloto" type="_YRIRkCq4EeOUq8QNWp2yhg" association="_tbgIIyq5EeOUq8QNWp2yhg">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_tbgIISq5EeOUq8QNWp2yhg"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_tbgIIiq5EeOUq8QNWp2yhg" value="*"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_t_0WICq5EeOUq8QNWp2yhg" name="escuderia" type="_Tbh0kCq4EeOUq8QNWp2yhg" association="_t_09MCq5EeOUq8QNWp2yhg">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_t_0WISq5EeOUq8QNWp2yhg" value="1"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_t_0WIiq5EeOUq8QNWp2yhg" value="1"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_uoSrYCq5EeOUq8QNWp2yhg" name="granPremio" type="_VfMVcCq4EeOUq8QNWp2yhg" association="_uoTScCq5EeOUq8QNWp2yhg">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_uoSrYSq5EeOUq8QNWp2yhg"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_uoSrYiq5EeOUq8QNWp2yhg" value="*"/>
+    </ownedAttribute>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_sIx8Ayq5EeOUq8QNWp2yhg" name="escuderia_patrocinador_1" memberEnd="_sIx8BCq5EeOUq8QNWp2yhg _sIx8ACq5EeOUq8QNWp2yhg">
+    <ownedEnd xmi:type="uml:Property" xmi:id="_sIx8BCq5EeOUq8QNWp2yhg" name="escuderia" type="_Tbh0kCq4EeOUq8QNWp2yhg" association="_sIx8Ayq5EeOUq8QNWp2yhg">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_sIx8BSq5EeOUq8QNWp2yhg" value="1"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_sIx8Biq5EeOUq8QNWp2yhg" value="1"/>
+    </ownedEnd>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_tbgIIyq5EeOUq8QNWp2yhg" name="patrocinador_piloto_1" memberEnd="_tbgIJCq5EeOUq8QNWp2yhg _tbgIICq5EeOUq8QNWp2yhg">
+    <ownedEnd xmi:type="uml:Property" xmi:id="_tbgIJCq5EeOUq8QNWp2yhg" name="patrocinador" type="_jSOngCq4EeOUq8QNWp2yhg" association="_tbgIIyq5EeOUq8QNWp2yhg">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_tbgIJSq5EeOUq8QNWp2yhg"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_tbgIJiq5EeOUq8QNWp2yhg" value="*"/>
+    </ownedEnd>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_t_09MCq5EeOUq8QNWp2yhg" name="patrocinador_escuderia_1" memberEnd="_t_09MSq5EeOUq8QNWp2yhg _t_0WICq5EeOUq8QNWp2yhg">
+    <ownedEnd xmi:type="uml:Property" xmi:id="_t_09MSq5EeOUq8QNWp2yhg" name="patrocinador" type="_jSOngCq4EeOUq8QNWp2yhg" association="_t_09MCq5EeOUq8QNWp2yhg">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_t_09Miq5EeOUq8QNWp2yhg" value="1"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_t_09Myq5EeOUq8QNWp2yhg" value="1"/>
+    </ownedEnd>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_uoTScCq5EeOUq8QNWp2yhg" name="patrocinador_granPremio_1" memberEnd="_uoTScSq5EeOUq8QNWp2yhg _uoSrYCq5EeOUq8QNWp2yhg">
+    <ownedEnd xmi:type="uml:Property" xmi:id="_uoTScSq5EeOUq8QNWp2yhg" name="patrocinador" type="_jSOngCq4EeOUq8QNWp2yhg" association="_uoTScCq5EeOUq8QNWp2yhg">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_uoTSciq5EeOUq8QNWp2yhg"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_uoTScyq5EeOUq8QNWp2yhg" value="*"/>
+    </ownedEnd>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Abstraction" xmi:id="_vrEXACq5EeOUq8QNWp2yhg" name="Abstraction1" client="_YRIRkCq4EeOUq8QNWp2yhg" supplier="_XpGoQCq4EeOUq8QNWp2yhg"/>
+  <packagedElement xmi:type="uml:Association" xmi:id="_wfSpQyq5EeOUq8QNWp2yhg" name="granPremio_ubicacion_1" memberEnd="_wfSpRCq5EeOUq8QNWp2yhg _wfSpQCq5EeOUq8QNWp2yhg">
+    <ownedEnd xmi:type="uml:Property" xmi:id="_wfSpRCq5EeOUq8QNWp2yhg" name="granPremio" type="_VfMVcCq4EeOUq8QNWp2yhg" association="_wfSpQyq5EeOUq8QNWp2yhg">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_wfSpRSq5EeOUq8QNWp2yhg" value="1"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_wfSpRiq5EeOUq8QNWp2yhg" value="1"/>
+    </ownedEnd>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_w28UQyq5EeOUq8QNWp2yhg" name="piloto_escuderia_1" memberEnd="_w28URCq5EeOUq8QNWp2yhg _w28UQCq5EeOUq8QNWp2yhg">
+    <ownedEnd xmi:type="uml:Property" xmi:id="_w28URCq5EeOUq8QNWp2yhg" name="piloto" type="_YRIRkCq4EeOUq8QNWp2yhg" association="_w28UQyq5EeOUq8QNWp2yhg">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_w28URSq5EeOUq8QNWp2yhg"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_w28URiq5EeOUq8QNWp2yhg" value="*"/>
+    </ownedEnd>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_1ssiQyq5EeOUq8QNWp2yhg" name="piloto_ubicacion_1" memberEnd="_1ssiRCq5EeOUq8QNWp2yhg _1ssiQCq5EeOUq8QNWp2yhg">
+    <ownedEnd xmi:type="uml:Property" xmi:id="_1ssiRCq5EeOUq8QNWp2yhg" name="piloto" type="_YRIRkCq4EeOUq8QNWp2yhg" association="_1ssiQyq5EeOUq8QNWp2yhg">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_1ssiRSq5EeOUq8QNWp2yhg" value="1"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_1ssiRiq5EeOUq8QNWp2yhg" value="1"/>
+    </ownedEnd>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_DCSqYCq6EeOUq8QNWp2yhg" name="Persona">
+    <generalization xmi:type="uml:Generalization" xmi:id="_IgZR0Cq6EeOUq8QNWp2yhg" general="_YRIRkCq4EeOUq8QNWp2yhg"/>
+    <generalization xmi:type="uml:Generalization" xmi:id="_JDFvMCq6EeOUq8QNWp2yhg" general="_GHjyMCq6EeOUq8QNWp2yhg"/>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_VgGCcCq6EeOUq8QNWp2yhg" name="ubicacion" type="_XpGoQCq4EeOUq8QNWp2yhg" association="_VgGCcyq6EeOUq8QNWp2yhg">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_VgGCcSq6EeOUq8QNWp2yhg" value="1"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_VgGCciq6EeOUq8QNWp2yhg" value="1"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_x71jsCtREeON98jwdcv1XQ" name="Nombre" visibility="public">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_yUQqwCtREeON98jwdcv1XQ" value="1"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_yUkz0CtREeON98jwdcv1XQ" value="1"/>
+      <defaultValue xmi:type="uml:LiteralString" xmi:id="_yUmB8CtREeON98jwdcv1XQ">
+        <value xsi:nil="true"/>
+      </defaultValue>
+    </ownedAttribute>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_2j6iECtREeON98jwdcv1XQ" name="Edad" visibility="public">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_24PMQCtREeON98jwdcv1XQ" value="1"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_24QaYCtREeON98jwdcv1XQ" value="1"/>
+      <defaultValue xmi:type="uml:LiteralString" xmi:id="_24RogCtREeON98jwdcv1XQ">
+        <value xsi:nil="true"/>
+      </defaultValue>
+    </ownedAttribute>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_GHjyMCq6EeOUq8QNWp2yhg" name="Mecanico">
+    <generalization xmi:type="uml:Generalization" xmi:id="_OgLC8Cq6EeOUq8QNWp2yhg" general="_DCSqYCq6EeOUq8QNWp2yhg"/>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_BzMd8CtSEeON98jwdcv1XQ" name="Rango" visibility="public">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_CMS6cCtSEeON98jwdcv1XQ" value="1"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_CMUvoCtSEeON98jwdcv1XQ" value="1"/>
+      <defaultValue xmi:type="uml:LiteralString" xmi:id="_CMWk0CtSEeON98jwdcv1XQ">
+        <value xsi:nil="true"/>
+      </defaultValue>
+    </ownedAttribute>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_C_yz8CtSEeON98jwdcv1XQ" name="Funcion" visibility="public">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_DSiJwCtSEeON98jwdcv1XQ" value="1"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_DSiw0CtSEeON98jwdcv1XQ" value="1"/>
+      <defaultValue xmi:type="uml:LiteralString" xmi:id="_DSj-8CtSEeON98jwdcv1XQ">
+        <value xsi:nil="true"/>
+      </defaultValue>
+    </ownedAttribute>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_oliGMCtSEeON98jwdcv1XQ" name="escuderia" type="_Tbh0kCq4EeOUq8QNWp2yhg" association="_oljUUCtSEeON98jwdcv1XQ">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_oliGMStSEeON98jwdcv1XQ" value="1"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_oliGMitSEeON98jwdcv1XQ" value="1"/>
+    </ownedAttribute>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_VgGCcyq6EeOUq8QNWp2yhg" name="persona_ubicacion_1" memberEnd="_VgGCdCq6EeOUq8QNWp2yhg _VgGCcCq6EeOUq8QNWp2yhg">
+    <ownedEnd xmi:type="uml:Property" xmi:id="_VgGCdCq6EeOUq8QNWp2yhg" name="persona" type="_DCSqYCq6EeOUq8QNWp2yhg" association="_VgGCcyq6EeOUq8QNWp2yhg">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_VgGCdSq6EeOUq8QNWp2yhg"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_VgGCdiq6EeOUq8QNWp2yhg" value="*"/>
+    </ownedEnd>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_oljUUCtSEeON98jwdcv1XQ" name="mecanico_escuderia_1" memberEnd="_oljUUStSEeON98jwdcv1XQ _oliGMCtSEeON98jwdcv1XQ">
+    <ownedEnd xmi:type="uml:Property" xmi:id="_oljUUStSEeON98jwdcv1XQ" name="mecanico" type="_GHjyMCq6EeOUq8QNWp2yhg" association="_oljUUCtSEeON98jwdcv1XQ">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_oljUUitSEeON98jwdcv1XQ"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_oljUUytSEeON98jwdcv1XQ" value="*"/>
+    </ownedEnd>
+  </packagedElement>
+</uml:Model>
