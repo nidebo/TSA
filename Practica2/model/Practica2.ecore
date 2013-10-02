@@ -1,8 +1,34 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ecore:EPackage xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" name="practica2" nsURI="http://practica2/1.0" nsPrefix="practica2">
-  <eClassifiers xsi:type="ecore:EClass" name="EClass0">
-    <eStructuralFeatures xsi:type="ecore:EAttribute" name="atributo1"/>
+  <eClassifiers xsi:type="ecore:EClass" name="Clase">
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="Nombre" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="Atributos" upperBound="-1"
+        eType="#//Atributo" containment="true" eOpposite="#//Atributo/Clase"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="Asociaciones" upperBound="-1"
+        eType="#//Asociacion" eOpposite="#//Asociacion/Clases"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="Agregacion" eType="#//Agregacion"
+        eOpposite="#//Agregacion/Clases"/>
   </eClassifiers>
-  <eClassifiers xsi:type="ecore:EClass" name="EClass1"/>
+  <eClassifiers xsi:type="ecore:EClass" name="Asociacion">
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="Nombre"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="Cardinalidad_final"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="Cardinalidad_inicial"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="Miembro_final"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="Miembro_inicial"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="Clases" upperBound="2"
+        eType="#//Clase" eOpposite="#//Clase/Asociaciones"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Atributo">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="Clase" lowerBound="1" eType="#//Clase"
+        eOpposite="#//Clase/Atributos"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="Nombre" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="Tipo" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Agregacion">
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="Nombre" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="EReference0" eType="#//Clase"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="Clases" eType="#//Clase"
+        eOpposite="#//Clase/Agregacion"/>
+  </eClassifiers>
 </ecore:EPackage>
