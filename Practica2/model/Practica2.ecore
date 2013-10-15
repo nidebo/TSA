@@ -6,13 +6,21 @@
     <eStructuralFeatures xsi:type="ecore:EReference" name="Atributos" upperBound="-1"
         eType="#//Atributo" containment="true" eOpposite="#//Atributo/Clase"/>
     <eStructuralFeatures xsi:type="ecore:EReference" name="Atributos" upperBound="-1"
-        eType="#//Atributo" containment="true"/>
+        eType="#//Atributo" containment="true" eOpposite="#//Atributo/Clase.1"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="Relaciones" upperBound="-1"
+        eType="#//Relacion.1"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="Padre" eType="#//Clase"
+        eOpposite="#//Clase/Hijo"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="Hijo" upperBound="-1" eType="#//Clase"
+        eOpposite="#//Clase/Padre"/>
   </eClassifiers>
   <eClassifiers xsi:type="ecore:EClass" name="Atributo">
     <eStructuralFeatures xsi:type="ecore:EReference" name="Clase" lowerBound="1" eType="#//Clase"
         eOpposite="#//Clase/Atributos"/>
     <eStructuralFeatures xsi:type="ecore:EAttribute" name="Nombre" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
     <eStructuralFeatures xsi:type="ecore:EAttribute" name="Tipo" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="Clase" lowerBound="1" eType="#//Clase"
+        eOpposite="#//Clase/Atributos.1"/>
   </eClassifiers>
   <eClassifiers xsi:type="ecore:EClass" name="Relacion"/>
   <eClassifiers xsi:type="ecore:EClass" name="Relacion">
@@ -20,16 +28,19 @@
         eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EInt"/>
     <eStructuralFeatures xsi:type="ecore:EAttribute" name="Nombre" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
     <eStructuralFeatures xsi:type="ecore:EAttribute" name="Tipo" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
-    <eStructuralFeatures xsi:type="ecore:EReference" name="Clase1" lowerBound="1"
-        eType="#//Clase"/>
-    <eStructuralFeatures xsi:type="ecore:EReference" name="Clase2" lowerBound="1"
-        eType="#//Clase"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="Clases" lowerBound="2"
+        upperBound="2" eType="#//Clase"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="" lowerBound="1" eType="#//Clase"/>
     <eStructuralFeatures xsi:type="ecore:EAttribute" name="Cardinalidad_1_maxima"
         eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EInt"/>
     <eStructuralFeatures xsi:type="ecore:EAttribute" name="Cardinalidad_2_minima"
         eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EInt"/>
     <eStructuralFeatures xsi:type="ecore:EAttribute" name="Cardinalidad_2_maxima"
         eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EInt"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="Clase 1" lowerBound="1"
+        eType="#//Clase"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="Clase 2" lowerBound="1"
+        eType="#//Clase"/>
   </eClassifiers>
   <eClassifiers xsi:type="ecore:EClass" name="Herencia">
     <eStructuralFeatures xsi:type="ecore:EReference" name="Padre" lowerBound="1" eType="#//Clase"/>

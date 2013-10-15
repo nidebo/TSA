@@ -241,5 +241,4 @@
       <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_oliGMitSEeON98jwdcv1XQ" value="1"/>
     </ownedEnd>
   </packagedElement>
-  <packagedElement xmi:type="uml:DurationObservation" xmi:id="_uMXEcCtVEeON98jwdcv1XQ" name="DurationObservation1"/>
 </uml:Model>
