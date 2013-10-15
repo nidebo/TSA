@@ -224,10 +224,6 @@
         <value xsi:nil="true"/>
       </defaultValue>
     </ownedAttribute>
-    <ownedAttribute xmi:type="uml:Property" xmi:id="_oliGMCtSEeON98jwdcv1XQ" name="escuderia" type="_Tbh0kCq4EeOUq8QNWp2yhg" association="_oljUUCtSEeON98jwdcv1XQ">
-      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_oliGMStSEeON98jwdcv1XQ" value="1"/>
-      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_oliGMitSEeON98jwdcv1XQ" value="1"/>
-    </ownedAttribute>
   </packagedElement>
   <packagedElement xmi:type="uml:Association" xmi:id="_VgGCcyq6EeOUq8QNWp2yhg" name="persona_ubicacion_1" memberEnd="_VgGCdCq6EeOUq8QNWp2yhg _VgGCcCq6EeOUq8QNWp2yhg">
     <ownedEnd xmi:type="uml:Property" xmi:id="_VgGCdCq6EeOUq8QNWp2yhg" name="persona" type="_DCSqYCq6EeOUq8QNWp2yhg" association="_VgGCcyq6EeOUq8QNWp2yhg">
@@ -235,10 +231,15 @@
       <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_VgGCdiq6EeOUq8QNWp2yhg" value="*"/>
     </ownedEnd>
   </packagedElement>
-  <packagedElement xmi:type="uml:Association" xmi:id="_oljUUCtSEeON98jwdcv1XQ" name="mecanico_escuderia_1" memberEnd="_oljUUStSEeON98jwdcv1XQ _oliGMCtSEeON98jwdcv1XQ">
+  <packagedElement xmi:type="uml:Association" xmi:id="_oljUUCtSEeON98jwdcv1XQ" name="mecanico_escuderia_1" memberEnd="_oljUUStSEeON98jwdcv1XQ _oliGMCtSEeON98jwdcv1XQ" navigableOwnedEnd="_oljUUStSEeON98jwdcv1XQ _oliGMCtSEeON98jwdcv1XQ">
     <ownedEnd xmi:type="uml:Property" xmi:id="_oljUUStSEeON98jwdcv1XQ" name="mecanico" type="_GHjyMCq6EeOUq8QNWp2yhg" association="_oljUUCtSEeON98jwdcv1XQ">
       <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_oljUUitSEeON98jwdcv1XQ"/>
       <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_oljUUytSEeON98jwdcv1XQ" value="*"/>
     </ownedEnd>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_oliGMCtSEeON98jwdcv1XQ" name="escuderia" type="_Tbh0kCq4EeOUq8QNWp2yhg" association="_oljUUCtSEeON98jwdcv1XQ">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_oliGMStSEeON98jwdcv1XQ" value="1"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_oliGMitSEeON98jwdcv1XQ" value="1"/>
+    </ownedEnd>
   </packagedElement>
+  <packagedElement xmi:type="uml:DurationObservation" xmi:id="_uMXEcCtVEeON98jwdcv1XQ" name="DurationObservation1"/>
 </uml:Model>

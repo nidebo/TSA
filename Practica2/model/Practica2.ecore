@@ -8,7 +8,7 @@
     <eStructuralFeatures xsi:type="ecore:EReference" name="Asociaciones" upperBound="-1"
         eType="#//Asociacion" eOpposite="#//Asociacion/Clases"/>
     <eStructuralFeatures xsi:type="ecore:EReference" name="Agregacion" eType="#//Agregacion"
-        eOpposite="#//Agregacion/Clases"/>
+        eOpposite="#//Agregacion/Clase"/>
   </eClassifiers>
   <eClassifiers xsi:type="ecore:EClass" name="Asociacion">
     <eStructuralFeatures xsi:type="ecore:EAttribute" name="Nombre"/>
@@ -28,7 +28,7 @@
   <eClassifiers xsi:type="ecore:EClass" name="Agregacion">
     <eStructuralFeatures xsi:type="ecore:EAttribute" name="Nombre" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
     <eStructuralFeatures xsi:type="ecore:EReference" name="EReference0" eType="#//Clase"/>
-    <eStructuralFeatures xsi:type="ecore:EReference" name="Clases" eType="#//Clase"
+    <eStructuralFeatures xsi:type="ecore:EReference" name="Clase" lowerBound="1" eType="#//Clase"
         eOpposite="#//Clase/Agregacion"/>
   </eClassifiers>
 </ecore:EPackage>
