@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="ASCII"?>
+<practica2:Modelo
+    xmi:version="2.0"
+    xmlns:xmi="http://www.omg.org/XMI"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:practica2="http://practica2/1.0"
+    xsi:schemaLocation="http://practica2/1.0 Practica2.ecore"
+    Nombre="MiModelo">
+  <ContieneClase
+      Nombre="Clase1"
+      EsOrigen="//@ContieneRelacion.0"
+      EsDestino="//@ContieneRelacion.0"/>
+  <ContieneClase
+      Nombre="Clase2"/>
+  <ContieneRelacion
+      Nombre="MeRelacionoConmigo"
+      Cardinalidad_Max_Origen="1"
+      Cardinalidad_Max_Destino="1"
+      Origen="//@ContieneClase.0"
+      Destino="//@ContieneClase.0"/>
+</practica2:Modelo>
