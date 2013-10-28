@@ -17,8 +17,6 @@
       <details key="PadreVSHijo" value="&#xA;&#x9;&#x9;&#x9;self.Hijo->excludes(self)&#xA;&#x9;&#x9;&#x9;and&#xA;&#x9;&#x9;&#x9;self.Padre->excludes(self)"/>
     </eAnnotations>
     <eStructuralFeatures xsi:type="ecore:EAttribute" name="Nombre" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
-    <eStructuralFeatures xsi:type="ecore:EReference" name="Atributos" eType="#//Atributo"
-        containment="true" eOpposite="#//Atributo/Clase.1"/>
     <eStructuralFeatures xsi:type="ecore:EReference" name="Padre" eType="#//Clase"
         eOpposite="#//Clase/Hijo"/>
     <eStructuralFeatures xsi:type="ecore:EReference" name="Hijo" upperBound="-1" eType="#//Clase"
@@ -29,12 +27,14 @@
         eType="#//Relacion" eOpposite="#//Relacion/Origen"/>
     <eStructuralFeatures xsi:type="ecore:EReference" name="EsDestino" upperBound="-1"
         eType="#//Relacion" eOpposite="#//Relacion/Destino"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="Atributos" upperBound="-1"
+        eType="#//Atributo" containment="true" eOpposite="#//Atributo/Clase.1"/>
   </eClassifiers>
   <eClassifiers xsi:type="ecore:EClass" name="Atributo">
     <eStructuralFeatures xsi:type="ecore:EReference" name="Clase"/>
     <eStructuralFeatures xsi:type="ecore:EAttribute" name="Nombre" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
     <eStructuralFeatures xsi:type="ecore:EAttribute" name="Tipo" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
-    <eStructuralFeatures xsi:type="ecore:EReference" name="Clase" eType="#//Clase"
+    <eStructuralFeatures xsi:type="ecore:EReference" name="Clase" lowerBound="1" eType="#//Clase"
         eOpposite="#//Clase/Atributos"/>
   </eClassifiers>
   <eClassifiers xsi:type="ecore:EClass" name="Modelo">
