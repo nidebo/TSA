@@ -23,13 +23,13 @@
   <children xmi:type="notation:Node" xmi:id="_dK8AQCtUEeON98jwdcv1XQ" type="1001">
     <children xmi:type="notation:Node" xmi:id="_dK_DkCtUEeON98jwdcv1XQ" type="4001"/>
     <children xmi:type="notation:Node" xmi:id="_dLARsCtUEeON98jwdcv1XQ" type="5001">
-      <children xmi:type="notation:Node" xmi:id="_L-3gYCtVEeON98jwdcv1XQ" type="2001">
+      <children xmi:type="notation:Node" xmi:id="_t3_DgEAoEeOTbLNOmNz_Xw" type="2001">
         <element xmi:type="ecore:EAttribute" href="Practica2.ecore#//Atributo/Nombre"/>
-        <layoutConstraint xmi:type="notation:Location" xmi:id="_L-3gYStVEeON98jwdcv1XQ"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_t3_DgUAoEeOTbLNOmNz_Xw"/>
       </children>
-      <children xmi:type="notation:Node" xmi:id="_kXG2kCtVEeON98jwdcv1XQ" type="2001">
+      <children xmi:type="notation:Node" xmi:id="_v19MEEAoEeOTbLNOmNz_Xw" type="2001">
         <element xmi:type="ecore:EAttribute" href="Practica2.ecore#//Atributo/Tipo"/>
-        <layoutConstraint xmi:type="notation:Location" xmi:id="_kXG2kStVEeON98jwdcv1XQ"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_v19MEUAoEeOTbLNOmNz_Xw"/>
       </children>
       <styles xmi:type="notation:DrawerStyle" xmi:id="_dLARsStUEeON98jwdcv1XQ"/>
       <styles xmi:type="notation:SortingStyle" xmi:id="_dLARsitUEeON98jwdcv1XQ"/>
@@ -207,7 +207,7 @@
     <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_5uncQT_FEeOfxePndTl_sQ" id="(0.3026315789473684,0.07236842105263158)"/>
   </edges>
   <edges xmi:type="notation:Edge" xmi:id="_94VU8Ds2EeOWGJNCiUO1dQ" type="3002" source="_JYuEYDs2EeOWGJNCiUO1dQ" target="_iCRwoCq6EeOgQuYgxil5Ow">
-    <children xmi:type="notation:Node" xmi:id="_94V8ADs2EeOWGJNCiUO1dQ" type="4011">
+    <children xmi:type="notation:Node" xmi:id="_94V8ADs2EeOWGJNCiUO1dQ" visible="false" type="4011">
       <layoutConstraint xmi:type="notation:Location" xmi:id="_94V8ATs2EeOWGJNCiUO1dQ" x="-11" y="-40"/>
     </children>
     <children xmi:type="notation:Node" xmi:id="_94WjEDs2EeOWGJNCiUO1dQ" type="4012">
