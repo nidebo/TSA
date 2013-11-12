@@ -32,7 +32,7 @@
   </eClassifiers>
   <eClassifiers xsi:type="ecore:EClass" name="Atributo">
     <eStructuralFeatures xsi:type="ecore:EReference" name="Clase"/>
-    <eStructuralFeatures xsi:type="ecore:EReference" name="Clase" eType="#//Clase"
+    <eStructuralFeatures xsi:type="ecore:EReference" name="Clase" lowerBound="1" eType="#//Clase"
         eOpposite="#//Clase/Atributos"/>
     <eStructuralFeatures xsi:type="ecore:EAttribute" name="Nombre" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
     <eStructuralFeatures xsi:type="ecore:EAttribute" name="Tipo" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>

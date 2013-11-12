@@ -202,9 +202,9 @@
     <styles xmi:type="notation:ConnectorStyle" xmi:id="_2k91ATs2EeOWGJNCiUO1dQ" lineColor="4210752"/>
     <styles xmi:type="notation:FontStyle" xmi:id="_2k91Ajs2EeOWGJNCiUO1dQ" fontColor="4210752" fontName="Segoe UI" fontHeight="10"/>
     <element xmi:type="ecore:EReference" href="Practica2.ecore#//Clase/EsOrigen"/>
-    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_2k91Azs2EeOWGJNCiUO1dQ" points="[-7, 19, -8, -84]$[-7, 88, -8, -15]$[-7, 93, -8, -10]"/>
-    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_5uncQD_FEeOfxePndTl_sQ" id="(0.26573426573426573,0.8061224489795918)"/>
-    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_5uncQT_FEeOfxePndTl_sQ" id="(0.3026315789473684,0.07236842105263158)"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_2k91Azs2EeOWGJNCiUO1dQ" points="[-7, 19, -8, -84]$[-7, 43, -8, -60]$[-7, 88, -8, -15]$[-7, 93, -8, -10]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_vRLpcECIEeOzNqqDmx2Vbg" id="(0.26573426573426573,0.8061224489795918)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_vRLpcUCIEeOzNqqDmx2Vbg" id="(0.3026315789473684,0.07236842105263158)"/>
   </edges>
   <edges xmi:type="notation:Edge" xmi:id="_94VU8Ds2EeOWGJNCiUO1dQ" type="3002" source="_JYuEYDs2EeOWGJNCiUO1dQ" target="_iCRwoCq6EeOgQuYgxil5Ow">
     <children xmi:type="notation:Node" xmi:id="_94V8ADs2EeOWGJNCiUO1dQ" visible="false" type="4011">
@@ -216,7 +216,7 @@
     <styles xmi:type="notation:ConnectorStyle" xmi:id="_94VU8Ts2EeOWGJNCiUO1dQ" lineColor="4210752"/>
     <styles xmi:type="notation:FontStyle" xmi:id="_94VU8js2EeOWGJNCiUO1dQ" fontColor="4210752" fontName="Segoe UI" fontHeight="10"/>
     <element xmi:type="ecore:EReference" href="Practica2.ecore#//Relacion/Origen"/>
-    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_94VU8zs2EeOWGJNCiUO1dQ" points="[-8, -10, -7, 93]$[-8, -15, -7, 88]$[-8, -84, -7, 19]"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_94VU8zs2EeOWGJNCiUO1dQ" points="[-8, -10, -7, 93]$[-8, -15, -7, 88]$[-8, -60, -7, 43]$[-8, -84, -7, 19]"/>
     <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="__r0EwDs2EeOWGJNCiUO1dQ" id="(0.3026315789473684,0.07236842105263158)"/>
     <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="__r0EwTs2EeOWGJNCiUO1dQ" id="(0.26573426573426573,0.8061224489795918)"/>
   </edges>

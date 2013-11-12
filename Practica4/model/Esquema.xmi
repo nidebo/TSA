@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="ASCII"?>
+<metamodelo:Esquema
+    xmi:version="2.0"
+    xmlns:xmi="http://www.omg.org/XMI"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:metamodelo="http://metamodelo/1.0"
+    xsi:schemaLocation="http://metamodelo/1.0 MetaModelo.ecore">
+  <Tablas Nombre="Escuderia">
+    <Columnas
+        Nombre="NombreEsc"
+        VNN="true"
+        ClavePrimaria="true"
+        Unico="true"
+        EsReferenciada="//@Relaciones.1"/>
+    <Columnas
+        Nombre="Presupuesto"
+        Tipo="Float"/>
+    <Columnas
+        Nombre="EscPatrocinada"
+        ClaveAjena="//@Relaciones.5"/>
+  </Tablas>
+  <Tablas Nombre="Patrocinador">
+    <Columnas
+        Nombre="NombrePat"
+        VNN="true"
+        ClavePrimaria="true"
+        Unico="true"
+        EsReferenciada="//@Relaciones.3 //@Relaciones.2 //@Relaciones.5"/>
+  </Tablas>
+  <Tablas Nombre="GranPremio">
+    <Columnas
+        Nombre="NombreGP"
+        VNN="true"
+        ClavePrimaria="true"
+        Unico="true"/>
+    <Columnas
+        Nombre="Vueltas"
+        Tipo="Int"/>
+    <Columnas
+        Nombre="Distancia"
+        VNN="true"
+        Tipo="Float"/>
+    <Columnas
+        Nombre="PatrocinadorGP"
+        ClaveAjena="//@Relaciones.2"/>
+    <Columnas
+        Nombre="Ubicado"
+        ClaveAjena="//@Relaciones.4"/>
+  </Tablas>
+  <Tablas Nombre="Ubicacion">
+    <Columnas
+        Nombre="Pais"/>
+    <Columnas
+        Nombre="Ciudad"/>
+    <Columnas
+        Nombre="idUbi"
+        VNN="true"
+        ClavePrimaria="true"
+        Unico="true"
+        EsReferenciada="//@Relaciones.0 //@Relaciones.4"/>
+  </Tablas>
+  <Tablas Nombre="Persona">
+    <Columnas
+        Nombre="Nombre"
+        VNN="true"
+        ClavePrimaria="true"
+        Unico="true"/>
+    <Columnas
+        Nombre="Edad"
+        Tipo="Int"/>
+    <Columnas
+        Nombre="Escuderia"
+        ClaveAjena="//@Relaciones.1"/>
+    <Columnas
+        Nombre="Origen"
+        ClaveAjena="//@Relaciones.0"/>
+    <Columnas
+        Nombre="PersonaPatrocinada"
+        ClaveAjena="//@Relaciones.3"/>
+  </Tablas>
+  <Relaciones
+      Origen="//@Tablas.4/@Columnas.3"
+      Nombre="OrigenPersona"
+      Destino="//@Tablas.3/@Columnas.2"/>
+  <Relaciones
+      Origen="//@Tablas.4/@Columnas.2"
+      Nombre="Pertenece"
+      Destino="//@Tablas.0/@Columnas.0"/>
+  <Relaciones
+      Origen="//@Tablas.2/@Columnas.3"
+      Nombre="GpPatrocinado"
+      Destino="//@Tablas.1/@Columnas.0"/>
+  <Relaciones
+      Origen="//@Tablas.4/@Columnas.4"
+      Nombre="PatrocinioPersona"
+      Destino="//@Tablas.1/@Columnas.0"/>
+  <Relaciones
+      Origen="//@Tablas.2/@Columnas.4"
+      Nombre="UbicacionGP"
+      Destino="//@Tablas.3/@Columnas.2"/>
+  <Relaciones
+      Origen="//@Tablas.0/@Columnas.2"
+      Nombre="EscuderiaPatrocinada"
+      Destino="//@Tablas.1/@Columnas.0"/>
+</metamodelo:Esquema>
