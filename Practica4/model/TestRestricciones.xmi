@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="ASCII"?>
+<metamodelo:Esquema
+    xmi:version="2.0"
+    xmlns:xmi="http://www.omg.org/XMI"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:metamodelo="http://metamodelo/1.0"
+    xsi:schemaLocation="http://metamodelo/1.0 MetaModelo.ecore">
+  <Tablas Nombre="Tabla1">
+    <Columnas
+        Nombre="Clave1"
+        ClavePrimaria="true"/>
+    <Columnas
+        Nombre="Clave2"
+        ClavePrimaria="true"/>
+    <Columnas
+        Nombre="TipoInt"
+        EsReferenciada="//@Relaciones.0"/>
+    <Columnas
+        Nombre="Col1"
+        EsReferenciada="//@Relaciones.1"/>
+    <Columnas
+        Nombre="Col1"/>
+  </Tablas>
+  <Tablas Nombre="Tabla1">
+    <Columnas
+        Nombre="Tipo VarChar"
+        ClaveAjena="//@Relaciones.0 //@Relaciones.1"/>
+  </Tablas>
+  <Relaciones
+      Origen="//@Tablas.1/@Columnas.0"
+      Nombre="DistintosTipos"
+      Destino="//@Tablas.0/@Columnas.2"/>
+  <Relaciones
+      Origen="//@Tablas.1/@Columnas.0"
+      Nombre="ReferenciadaNoPrimaryKey"
+      Destino="//@Tablas.0/@Columnas.3"/>
+  <Relaciones
+      Nombre="MismoNombre"/>
+  <Relaciones
+      Nombre="MismoNombre"/>
+</metamodelo:Esquema>

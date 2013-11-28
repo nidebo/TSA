@@ -32,7 +32,7 @@
   </eClassifiers>
   <eClassifiers xsi:type="ecore:EClass" name="Atributo">
     <eStructuralFeatures xsi:type="ecore:EReference" name="Clase"/>
-    <eStructuralFeatures xsi:type="ecore:EReference" name="Clase" lowerBound="1" eType="#//Clase"
+    <eStructuralFeatures xsi:type="ecore:EReference" name="Clase" eType="#//Clase"
         eOpposite="#//Clase/Atributos"/>
     <eStructuralFeatures xsi:type="ecore:EAttribute" name="Nombre" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
     <eStructuralFeatures xsi:type="ecore:EAttribute" name="Tipo" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
@@ -66,6 +66,8 @@
         eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EInt"/>
     <eStructuralFeatures xsi:type="ecore:EAttribute" name="Cardinalidad_Max_Destino"
         eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EInt"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="Rol_Origen" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="Rol_Destino" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
     <eStructuralFeatures xsi:type="ecore:EReference" name="RelacionContenida" lowerBound="1"
         eType="#//Modelo" eOpposite="#//Modelo/ContieneRelacion"/>
     <eStructuralFeatures xsi:type="ecore:EReference" name="Origen" lowerBound="1"
@@ -74,6 +76,10 @@
         eType="#//Clase" eOpposite="#//Clase/EsDestino"/>
     <eStructuralFeatures xsi:type="ecore:EAttribute" name="Cardinalidad_Min_Destino"
         eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EInt"/>
-    <eStructuralFeatures xsi:type="ecore:EAttribute" name="Tipo" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="Tipo" eType="#//TiposRelacion"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EEnum" name="TiposRelacion">
+    <eLiterals name="Asociacion" value="1"/>
+    <eLiterals name="Dependencia" value="2"/>
   </eClassifiers>
 </ecore:EPackage>

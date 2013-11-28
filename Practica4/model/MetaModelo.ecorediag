@@ -227,7 +227,7 @@
     <styles xmi:type="notation:ConnectorStyle" xmi:id="_qpTRMErBEeOIXoS9776utw" lineColor="4210752"/>
     <styles xmi:type="notation:FontStyle" xmi:id="_qpTRMUrBEeOIXoS9776utw" fontColor="4210752" fontName="Segoe UI" fontHeight="10"/>
     <element xmi:type="ecore:EReference" href="MetaModelo.ecore#//Columna/EsReferenciada"/>
-    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_qpTRMkrBEeOIXoS9776utw" points="[46, -5, -228, 24]$[250, -26, -24, 3]"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_qpTRMkrBEeOIXoS9776utw" points="[5, 1, -223, -25]$[89, 19, -139, -7]$[204, 19, -24, -7]"/>
     <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_36LRYErBEeOIXoS9776utw" id="(0.9747474747474747,0.5703125)"/>
     <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_36LRYUrBEeOIXoS9776utw" id="(0.1893939393939394,0.6666666666666666)"/>
   </edges>
@@ -241,9 +241,9 @@
     <styles xmi:type="notation:ConnectorStyle" xmi:id="_szJ5oUrBEeOIXoS9776utw" lineColor="4210752"/>
     <styles xmi:type="notation:FontStyle" xmi:id="_szJ5okrBEeOIXoS9776utw" fontColor="4210752" fontName="Segoe UI" fontHeight="10"/>
     <element xmi:type="ecore:EReference" href="MetaModelo.ecore#//ClaveAjena/Destino"/>
-    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_szJ5o0rBEeOIXoS9776utw" points="[-24, 3, 250, -26]$[-228, 24, 46, -5]"/>
-    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_yuRNMErBEeOIXoS9776utw" id="(0.1893939393939394,0.6666666666666666)"/>
-    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_yuR0QErBEeOIXoS9776utw" id="(0.9747474747474747,0.5703125)"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_szJ5o0rBEeOIXoS9776utw" points="[-24, -7, 204, 19]$[-139, -7, 89, 19]$[-223, -25, 5, 1]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_3cYEwEu2EeOy_JZPCKBE1w" id="(0.1893939393939394,0.6666666666666666)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_3cYEwUu2EeOy_JZPCKBE1w" id="(0.9747474747474747,0.5703125)"/>
   </edges>
   <edges xmi:type="notation:Edge" xmi:id="_z1044ErGEeOIXoS9776utw" type="3002" source="_Vtxf0EC4EeOsEcoE58Mb3Q" target="_iMxaUEC8EeOsEcoE58Mb3Q">
     <children xmi:type="notation:Node" xmi:id="_z1045ErGEeOIXoS9776utw" type="4011">
